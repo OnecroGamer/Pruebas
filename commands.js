@@ -225,9 +225,9 @@ var commands = exports.commands = {
 	},
         ghostmode: function (target, room, user) {
                 var ghostmode on, ghostmode off;
-                if (ghostmode on ==true)
+                if (ghostmode on === true)
                 user.resetname();
-                if (ghostmode off=true)
+                if (ghostmode off === true)
                 document.write('/login')
         },
 	msghelp: ["/msg OR /whisper OR /w [username], [message] - Send a private message."],
